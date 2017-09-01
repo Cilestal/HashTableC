@@ -1,12 +1,12 @@
 #include "HashTable.h"
-
+//comment
 int main()
 {
 	setlocale(LC_ALL, "RUSSIAN");
-	//создание таблицы размером 16
+	//Г±Г®Г§Г¤Г Г­ГЁГҐ ГІГ ГЎГ«ГЁГ¶Г» Г°Г Г§Г¬ГҐГ°Г®Г¬ 16
     HashTable<string, string> table;				
 	
-	//добавляем элементы - E A S Y Q U E S T I O N
+	//Г¤Г®ГЎГ ГўГ«ГїГҐГ¬ ГЅГ«ГҐГ¬ГҐГ­ГІГ» - E A S Y Q U E S T I O N
 	table.put("E", "Value E");
     table.put("A", "Value A");
     table.put("S", "Value S");
